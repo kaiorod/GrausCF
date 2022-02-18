@@ -16,7 +16,7 @@ namespace GrausCF
             convf = c * 1.8 + 32;
             
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"\n{convf} ºF ");
+            Console.WriteLine($"\n{convf:N2} ºF ");
             Console.ResetColor();
         }
     }
